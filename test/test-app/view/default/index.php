@@ -1,0 +1,1 @@
+<h1>Content of default:index</h1>

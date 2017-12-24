@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit 
+  bootstrap="bootstrap.php"
+  strict="true"
+  processIsolation="true">
+  <testsuites>
+    <testsuite name="moy exception">
+      <file>exception/badFunctionCallTest.php</file>
+      <file>exception/badInterfaceTest.php</file>
+      <file>exception/badMethodCallTest.php</file>
+      <file>exception/databaseTest.php</file>
+      <file>exception/domainTest.php</file>
+      <file>exception/errorTest.php</file>
+      <file>exception/exceptionTest.php</file>
+      <file>exception/fileOperateTest.php</file>
+      <file>exception/formTest.php</file>
+      <file>exception/forwardTest.php</file>
+      <file>exception/http403Test.php</file>
+      <file>exception/http404Test.php</file>
+      <file>exception/invalidArgumentTest.php</file>
+      <file>exception/lengthTest.php</file>
+      <file>exception/logicTest.php</file>
+      <file>exception/outOfBoundsTest.php</file>
+      <file>exception/outOfRangeTest.php</file>
+      <file>exception/overflowTest.php</file>
+      <file>exception/redirectTest.php</file>
+      <file>exception/routerTest.php</file>
+      <file>exception/runtimeTest.php</file>
+      <file>exception/sessionTest.php</file>
+      <file>exception/undefinedTest.php</file>
+      <file>exception/underflowTest.php</file>
+      <file>exception/unexpectedValueTest.php</file>
+      <file>exception/viewTest.php</file>
+    </testsuite>
+    <testsuite name="moy core">
+      <file>core/loaderTest.php</file>
+      <file>core/configTest.php</file>
+      <file>core/moyTest.php</file>
+      <file>core/request/userAgentTest.php</file>
+      <file>core/requestTest.php</file>
+      <file>core/responseTest.php</file>
+      <file>core/session/sqliteTest.php</file>
+      <file>core/sessionTest.php</file>
+      <file>core/sitemapTest.php</file>
+      <file>core/routerTest.php</file>
+      <file>core/debugTest.php</file>
+      <file>core/loggerTest.php</file>
+      <file>core/bootstrapTest.php</file>
+      <file>core/frontTest.php</file>
+    </testsuite>
+    <testsuite name="moy controller">
+      <file>controller/baseTest.php</file>
+      <file>controller/controllerTest.php</file>
+      <file>controller/actionTest.php</file>
+    </testsuite>
+    <testsuite name="moy view">
+      <file>view/componentTest.php</file>
+      <file>view/renderTest.php</file>
+      <file>view/viewTest.php</file>
+      <file>view/wrapperTest.php</file>
+    </testsuite>
+    <testsuite name="moy auth">
+      <file>auth/authTest.php</file>
+      <file>auth/userTest.php</file>
+    </testsuite>
+    <testsuite name="moy form">
+      <file>form/control/checkboxTest.php</file>
+      <file>form/control/checkgroupTest.php</file>
+      <file>form/control/dropdownTest.php</file>
+      <file>form/control/fileTest.php</file>
+      <file>form/control/hiddenTest.php</file>
+      <file>form/control/listTest.php</file>
+      <file>form/control/passwordTest.php</file>
+      <file>form/control/radiogroupTest.php</file>
+      <file>form/control/textareaTest.php</file>
+      <file>form/control/textTest.php</file>
+      <file>form/controlTest.php</file>
+      <file>form/fieldTest.php</file>
+      <file>form/validationTest.php</file>
+      <file>form/formTest.php</file>
+    </testsuite>
+    <testsuite name="moy helper">
+      <file>helper/globalTest.php</file>
+    </testsuite>
+    <testsuite name="moy db">
+      <file>db/sqlTest.php</file>
+      <file>db/dataSetTest.php</file>
+      <file>db/dbTest.php</file>
+      <file>db/statementTest.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>

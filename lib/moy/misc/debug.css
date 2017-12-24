@@ -1,0 +1,69 @@
+@CHARSET "UTF-8";
+
+#moy_debug > div {
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 10px;
+  color: #333;
+}
+#moy_debug h4 {
+  margin: 0;
+  padding: 5px;
+  font-size: 16px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+#moy_debug h4 em {
+  font-weight: normal;
+  color: #666;
+}
+#moy_debug pre {
+  font-size: 12px;
+  padding: 10px 5px;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+#moy_debug > div:last-child {
+  margin-bottom: 0;
+}
+#moy_debug > div.debug_type_info {
+  border-color: #999;
+}
+#moy_debug > div.debug_type_info h4 {
+  border-bottom-color: #999;
+  background-color: #EEE;
+}
+
+#moy_debug > div.debug_type_notice {
+  border-color: #DC9C1C;
+}
+#moy_debug > div.debug_type_notice h4 {
+  border-bottom-color: #DC9C1C;
+  background-color: #F7DBA1;
+}
+
+#moy_debug > div.debug_type_warning {
+  border-color: #DC9C1C;
+}
+#moy_debug > div.debug_type_warning h4 {
+  border-bottom-color: #DC9C1C;
+  background-color: #F7DBA1;
+}
+
+#moy_debug > div.debug_type_error {
+  border-color: #F60;
+}
+#moy_debug > div.debug_type_error h4 {
+  border-bottom-color: #F60;
+  background-color: #FFC4A0;
+}
+
+#moy_debug > div.debug_type_exception {
+  border-color: #F60;
+}
+#moy_debug > div.debug_type_exception h4 {
+  border-bottom-color: #F60;
+  background-color: #FFC4A0;
+}
